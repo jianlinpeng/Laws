@@ -19,5 +19,7 @@
   "minimal-style@@embed-underline": false,
   "minimal-style@@image-blend-light": false,
   "minimal-style@@h1-l": false,
-  "minimal-style@@vault-profile-display": "vault-profile-top"
+  "minimal-style@@vault-profile-display": "vault-profile-top",
+  "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-material-palenight",
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-avocado-topaz"
 }
