@@ -720,7 +720,7 @@
         ]
       }
     },
-    "01 单页模式（主页）": {
+    "00 主页": {
       "main": {
         "id": "9ead64351a62b676",
         "type": "split",
@@ -766,7 +766,7 @@
                     "autoReveal": true
                   },
                   "icon": "lucide-folder-closed",
-                  "title": "文件列表"
+                  "title": "Files"
                 }
               },
               {
@@ -790,8 +790,8 @@
                 "state": {
                   "type": "bookmarks",
                   "state": {},
-                  "icon": "lucide-file",
-                  "title": "插件不再活动"
+                  "icon": "lucide-ghost",
+                  "title": "bookmarks"
                 }
               },
               {
@@ -815,7 +815,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 306.5
+        "width": 247.5
       },
       "right": {
         "id": "a0b6129d85d5e8a2",
@@ -838,7 +838,7 @@
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "00 主页 的大纲"
+                  "title": "Outline of 00 主页"
                 }
               },
               {
@@ -907,28 +907,28 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "command-palette:Open command palette": false,
+          "workspaces:Manage workspace layouts": false,
+          "bases:Create new base": false,
+          "obsidian-excalidraw-plugin:New drawing": false,
+          "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false,
+          "open-vscode:VSCode": false,
           "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
           "homepage:Open homepage": false,
           "obsidian-regex-pipeline:Regex Rulesets": false,
-          "copilot:Open Copilot Chat": false,
-          "i18n:I18N": false,
-          "templater-obsidian:Templater": false,
-          "table-editor-obsidian:Advanced Tables Toolbar": false,
-          "switcher:打开快速切换": false,
-          "graph:查看关系图谱": false,
-          "canvas:新建白板": false,
-          "command-palette:打开命令面板": false,
-          "obsidian-excalidraw-plugin:新建绘图文件": false,
-          "workspaces:管理工作区布局": false
+          "templater-obsidian:Templater": false
         }
       },
-      "active": "286344d1390f4aa3",
-      "mtime": "2025-06-30T10:33:03+08:00",
+      "active": "973e19cabaf7d3e3",
+      "mtime": "2025-12-03T14:19:05+08:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "000 Inbox",
@@ -938,5 +938,5 @@
       }
     }
   },
-  "active": "01 单页模式（主页）"
+  "active": "00 主页"
 }
