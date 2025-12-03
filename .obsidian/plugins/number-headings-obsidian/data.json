@@ -1,0 +1,13 @@
+{
+  "skipTopLevel": true,
+  "firstLevel": 3,
+  "maxLevel": 4,
+  "styleLevel1": "1",
+  "styleLevelOther": "1",
+  "auto": false,
+  "separator": "、",
+  "contents": "",
+  "skipHeadings": "",
+  "startAt": "",
+  "off": false
+}

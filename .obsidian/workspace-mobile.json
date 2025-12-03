@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "46a30149b62d1655",
+    "type": "split",
+    "children": [
+      {
+        "id": "4483b8a19aa85e5f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "93c9f732c05531b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 Inbox/词根词缀的基础知识.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "词根词缀的基础知识"
+            }
+          },
+          {
+            "id": "6a27e50b89a2bcd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2400 应急管理法律法规/60 火灾防治/公共娱乐场所消防安全管理规定.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "公共娱乐场所消防安全管理规定"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "069e352c05a14be5",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "bf6a2dae128d0f03",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "文件列表"
+        }
+      },
+      {
+        "id": "67d9e2289662a585",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "搜索"
+        }
+      },
+      {
+        "id": "8da923d6b7865ec3",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "标签"
+        }
+      },
+      {
+        "id": "4df82bf1d9ccfb18",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "书签"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "a13713037b5f63a1",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "a258329c0d44018e",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "000 Inbox/2025年度专业技术人员职业资格考试工作计划.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "反向链接"
+        }
+      },
+      {
+        "id": "49f2225adea0a4dc",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "000 Inbox/国际音标与语音语调.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "出链"
+        }
+      },
+      {
+        "id": "34734e1f13379bb5",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "000 Inbox/国际音标与语音语调.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "大纲"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "workspaces:管理工作区布局": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "6a27e50b89a2bcd5",
+  "lastOpenFiles": [
+    "最高法刑事审判参考/01 集/​【刑事审判参考】于庆伟职务侵占案[第235号].md",
+    "最高法刑事审判参考/04 集/刑事审判参考【第1517号】舒某掩饰、隐瞒犯罪所得案.md",
+    "最高法刑事审判参考/30 《刑参》第 21 - 30 集/［ 第 131 号 ］朱某销售假冒注册商标的商品案——假冒注册商标的商品尚未销售就被查获的能否以销售假冒注册商标的商品罪追究刑事责任.md",
+    "最高法刑事审判参考/04 集/刑事审判参考【第1516号】许某怡侵害英雄烈士名誉、荣誉案.md",
+    "最高法刑事审判参考/03 集/​【刑事审判参考】王江浩挪用资金案［第1343号］.md",
+    "最高法刑事审判参考/03 集/​【刑事审判参考】黄钰诈骗案［第1342号］.md",
+    "最高法刑事审判参考/03 集/​【刑事审判参考】蒲长才盗窃案［第1341号］.md",
+    "最高法刑事审判参考/03 集/​【刑事审判参考】张某文抢劫、抢夺案［第1340号］.md",
+    "最高法刑事审判参考/03 集/​【刑事审判参考】被告人梁某强奸案［第1339号］.md",
+    "000 Inbox/2025年度专业技术人员职业资格考试工作计划.md",
+    "000 Inbox/场景样品清单.md",
+    "000 Inbox/未命名 3.md",
+    "000 Inbox/词根词缀的基础知识.md",
+    "000 Inbox/词法.md",
+    "000 Inbox/fgvfvj.md",
+    "000 Inbox/国际音标与语音语调.md",
+    "000 Inbox/未命名 2.md",
+    "000 Inbox/国务院.md",
+    "000 Inbox/未命名 1.md",
+    "Canvas/常用物品清单.canvas",
+    "Canvas",
+    "Excalidraw/Scripts/Downloaded/Mindmap format.svg",
+    "Excalidraw/Scripts/Downloaded/Mindmap format.md",
+    "Excalidraw/Scripts/Downloaded/Grid Selected Images.md",
+    "Excalidraw/Scripts/Downloaded/Connect elements.svg",
+    "Excalidraw/Scripts/Downloaded/Connect elements.md",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Drawing 2025-01-24 08.33.14.excalidraw.md",
+    "Excalidraw/Drawing 2025-01-24 06.24.09.excalidraw.md",
+    "Excalidraw/Scripts",
+    "Excalidraw",
+    "Attachment/1729776598921_62485760231578.jpg",
+    "Attachment",
+    "100 Computer/10 HTML/XHTML.md",
+    "100 Computer/10 HTML/HTML 基础教程.md",
+    "100 Computer/30 JavaScript",
+    "100 Computer/20 CSS",
+    "100 Computer/10 HTML",
+    "100 Computer",
+    "000 Inbox"
+  ]
+}

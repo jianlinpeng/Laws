@@ -1,0 +1,149 @@
+
+body{
+  /* --file-line-width: 65rem !important; */
+  /* width:100%; */
+}
+
+/* 使 Obsidian 主内容区域在大屏幕上限制宽度，在小屏幕上自适应宽度 */
+
+/* 调整主内容区域宽度 */
+div.app-container{
+  background-color: red !important;
+  /* padding: 5px 60px !important; */
+}
+
+div.view-content {
+  background-color: #fff;
+  /* background-color: hsl(50, 15%, 90%) !important; */
+  /* background-color: hsl(50, 15%, 90%) !important; */
+}
+
+div.markdown-source-view,
+div.markdown-reading-view {
+  /* 设置主内容区域的宽度 */
+  /* width: 100% !important; */
+  /* width: 80% ; */
+  /* min-width: 450px; */
+  /* max-width: 780px;  */
+  /* min-width: 60%; */
+  /* max-width: 80%; */
+  /* max-width: 21cm !important; */
+  margin: 0 auto;          /* 居中对齐 */
+  padding: 10px 6px !important; /* 设置内边距，与表格边距冲突 */
+  /* border: 1px solid; */
+  /* 页边阴影 */
+  box-shadow: 0 0 12px 6px #cccccc;
+  background-color: #fff !important;
+  /* background-color: hsl(50, 15%, 90%) !important; */
+}
+
+
+/* !设定界面宽度全宽：full_width_page*/
+.markdown-source-view.mod-cm6.is-readable-line-width,
+.markdown-preview-view {
+  /* --file-line-width: 60% !important; */
+}
+
+div.metadata-container{
+  /* margin-left: 2rem; */
+  /* min-width: 60% !important; */
+  /* max-width: 80% !important; */
+}
+
+[data-path="000 Inbox/00 Home/Home.md"] div.markdown-reading-view,
+[data-path="000 Inbox/00 Home/Home.md"] div.markdown-source-view,
+[data-path="000 Inbox/00 Home/Home.md"] div.markdown-preview-view,
+[data-path="000 Inbox/00 Home/Home.md"] div.cm-content{
+  /* color: red !important; */
+  /* background-color: pink !important; */
+  /* --file-line-width: 40rem !important; */
+  /* width: 60% !important; */
+}
+
+
+.gw div.markdown-source-view,
+.gw div.markdown-reading-view {
+  /* width: 80%; */
+  margin: 0 auto;          /* 居中对齐 */
+  padding: 10px 6px !important; /* 设置内边距，与表格边距冲突 */
+  box-shadow: 0 0 12px 6px #cccccc;
+}
+
+/* !关闭显示标题栏：colse_show_title */
+.colse_show_title.markdown-preview-view .mod-header .inline-title
+.colse_show_title.markdown-reading-view .mod-header .inline-title {
+  /* display: none; */
+  /* line-height: 0px; */
+}
+
+/* 设定字体大小 */
+.full_width_page.markdown-preview-view {
+  font-size: 22px !important;
+  line-height: 150%;
+}
+
+/* 设置编辑阅读模式的边框 */
+/* 标题样式 */
+.inline-title {
+    color: hsla(240, 100%, 70%, 0.971) ;
+    box-shadow: 0 0 3px #5d5656 ;
+    text-align: center !important;
+    margin: 10px auto !important;
+    /* vertical-align: middle !important; */
+    padding: 10px 10px !important;
+}
+.cm-editor {
+    padding: 0px 2px !important;
+    /* margin: -10px 5px !important; */
+    /* border: 0px !important; */
+}
+.cm-scroller {
+    padding: 0px !important;
+}
+
+.markdown-preview-sizer{
+    /* width: 80% !important; */
+    padding: 10px 10px !important;
+    /* max-width: 99% !important; */
+    /* margin: 10px 10px; */
+    /* border: 10px 10px !important; */
+}
+
+
+.kanban-plugin__markdown-preview-wrapper .markdown-preview-view {
+  box-shadow: none !important;
+}
+
+/* 响应式设计：在较小屏幕上设置为 100% 宽度 */
+@media only screen and (max-width: 768px) {
+  .markdown-preview-view,
+  .markdown-source-view {
+    width: 100% !important;           /* 在小屏幕上扩展到 100% 宽度 */
+    /* padding: 10px; */
+  }
+}
+
+
+/* .home.markdown-preview-view .markdown-preview-sizer.markdown-preview-sizer {
+  min-width: 100% !important;
+} */
+
+
+@media screen {
+  #write {
+    padding: var(--set-margin);
+    /* 添加一个淡蓝色的边框 */
+    /* border: 0.8px solid #AAC ; */
+    /* 页边阴影 */
+    box-shadow: 0 0 24px 12px #cccccc;
+  }
+}
+/* @media print {
+  #write {
+    padding: 0 !important;
+  }
+
+  @page {
+    margin: 1.8cm 2cm 1.2cm 2cm !important;
+  }
+} */

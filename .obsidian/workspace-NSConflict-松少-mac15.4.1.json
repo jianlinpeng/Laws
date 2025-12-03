@@ -1,0 +1,270 @@
+{
+  "main": {
+    "id": "9ead64351a62b676",
+    "type": "split",
+    "children": [
+      {
+        "id": "edcaa373c5c98831",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "973e19cabaf7d3e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "最高法刑事审判参考/10 《刑参》第 1 - 10 集/［ 第 9 号 ］王征宇故意杀人案——驾车致人死亡的行为如何定罪.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "［ 第 9 号 ］王征宇故意杀人案——驾车致人死亡的行为如何定罪"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0595dda9894a8387",
+    "type": "split",
+    "children": [
+      {
+        "id": "86dc4845f1d0bd87",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6fb0bc99b0712b0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "e66f860fb7ad8c75",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "255bf4e0f8b5e629",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "ba621fb35a9f69d5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "通过日期",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 449.5024719238281
+  },
+  "right": {
+    "id": "a0b6129d85d5e8a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "396397ce687b1862",
+        "type": "tabs",
+        "dimension": 81.06060606060606,
+        "children": [
+          {
+            "id": "ec4a5dcaad4e4e75",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "最高法刑事审判参考/10 《刑参》第 1 - 10 集/［ 第 9 号 ］王征宇故意杀人案——驾车致人死亡的行为如何定罪.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "［ 第 9 号 ］王征宇故意杀人案——驾车致人死亡的行为如何定罪 的反向链接列表"
+            }
+          },
+          {
+            "id": "6aaa9af32fd42921",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "最高法刑事审判参考/00 inbox/​【刑事审判参考】高国亮、李永望等贩卖、制造毒品案[第501号] 1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "2014年客观题-试卷1 的出链列表"
+            }
+          },
+          {
+            "id": "286344d1390f4aa3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "最高法刑事审判参考/00 inbox/刑参（1001-1560）.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "刑参（1001-1560） 的大纲"
+            }
+          },
+          {
+            "id": "16082d116e70f95d",
+            "type": "leaf",
+            "state": {
+              "type": "Strange New Worlds",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
+            }
+          },
+          {
+            "id": "bd5d0ffb96e61471",
+            "type": "leaf",
+            "state": {
+              "type": "Strange New Worlds",
+              "state": {},
+              "icon": "file-digit",
+              "title": "Strange New Worlds"
+            }
+          }
+        ]
+      },
+      {
+        "id": "a122c72550995a10",
+        "type": "tabs",
+        "dimension": 18.939393939393938,
+        "children": [
+          {
+            "id": "8b0f27a64bc6231f",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:创建新看板": false,
+      "flashcards-obsidian:Generate flashcards": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "homepage:Open homepage": false,
+      "media-extended:打开媒体": false,
+      "i18n:I18N": false
+    }
+  },
+  "active": "973e19cabaf7d3e3",
+  "lastOpenFiles": [
+    "最高法刑事审判参考/00 inbox/刑参（1-500）.md",
+    "最高法刑事审判参考/00 inbox/刑参（1001-1560）.md",
+    "最高法刑事审判参考/00 inbox/简单（双链）.md",
+    "最高法刑事审判参考/01 集/​【刑事审判参考】赵廷贵贩卖毒品案[第500号].md",
+    "最高法刑事审判参考/01 集/​【刑事审判参考】吴灵玉等抢劫、盗窃、窝藏案[第499号].md",
+    "最高法刑事审判参考/01 集/​【刑事审判参考】卞修柱抢劫案[第498号].md",
+    "最高法刑事审判参考/01 集/​【刑事审判参考】何永国抢劫案[第497号].md",
+    "最高法刑事审判参考/01 集/​【刑事审判参考】俞志刚绑架案[第496号].md",
+    "最高法刑事审判参考/01 集/​【刑事审判参考】谭荣财、罗进东强奸、抢劫、盗窃案[第495号].md",
+    "最高法刑事审判参考/01 集/​【刑事审判参考】余志华诈骗案[第494号].md",
+    "最高法刑事审判参考/01 集/​【刑事审判参考】吴孔成盗窃案[第493号].md",
+    "最高法刑事审判参考/01 集/​【刑事审判参考】朱影盗窃案[第492号].md",
+    "最高法刑事审判参考/01 集/​【刑事审判参考】侯吉辉、匡家荣、何德权抢劫案[第491号] 1.md",
+    "最高法刑事审判参考/01 集/​【刑事审判参考】侯吉辉、匡家荣、何德权抢劫案[第491号].md",
+    "最高法刑事审判参考/01 集/​【刑事审判参考】肖明明故意杀人案[第490号].md",
+    "最高法刑事审判参考/01 集/​【刑事审判参考】陈宗纬、王文泽、郑淳中非法经营案[第489号].md",
+    "最高法刑事审判参考/01 集/【刑事审判参考】惠庆祥等非法吸收公众存款案[第488号].md",
+    "最高法刑事审判参考/01 集/【刑事审判参考】姚凯高利转贷案[第487号].md",
+    "最高法刑事审判参考/01 集/​【刑事审判参考】朱海斌等制造、贩卖毒品案[第486号].md",
+    "最高法刑事审判参考/01 集/​【刑事审判参考】孙立平等盗掘古墓葬案 [第485号].md",
+    "最高法刑事审判参考/01 集/​【刑事审判参考】虞秀强职务侵占案 [第484号].md",
+    "最高法刑事审判参考/01 集/​【刑事审判参考】马俊、陈小灵等盗窃、隐瞒犯罪所得案[第483号].md",
+    "最高法刑事审判参考/01 集/​【刑事审判参考】王建利等抢劫案[第482号].md",
+    "最高法刑事审判参考/01 集/​【刑事审判参考】弓喜抢劫案[第481号].md",
+    "最高法刑事审判参考/01 集/​【刑事审判参考】李春伟、史熠东抢劫案[第480号].md",
+    "最高法刑事审判参考/01 集/【刑事审判参考】徐开雷保险诈骗案[第479号].md",
+    "最高法刑事审判参考/01 集",
+    "最高法刑事审判参考/04 集",
+    "最高法刑事审判参考/03 集",
+    "最高法刑事审判参考/02 集",
+    "Attachment/2025国家现行法律.zip",
+    "Diagrams/10 刑事 流程图/民事诉讼流程图.svg",
+    "Diagrams/10 刑事 流程图/刑事诉讼流程图.svg",
+    "Diagrams/知识产权.drawio.svg",
+    "Diagrams/Untitled Diagram.svg",
+    "Diagrams/知识产权_副本3.drawio",
+    "Diagrams/知识产权_副本.drawio",
+    "Diagrams/知识产权.drawio",
+    "Diagrams/知识产权_副本2.drawio",
+    "Diagrams/知识产权_副本4.drawio",
+    "Diagrams/10 刑事 流程图/Untitled Diagram.svg",
+    "Diagrams/10 刑事 流程图/专利申请流程_副本.svg",
+    "Diagrams/10 刑事 流程图/专利申请流程.svg",
+    "最高检指导性案例/00 inbox/Untitled Diagram 1.svg",
+    "Attachment/Pasted image 20250514192043.png",
+    "000 Inbox/10 Home/未命名.canvas",
+    "2700 医疗法律法规/未命名.canvas",
+    "2300 市场监管法律法规/未命名.canvas",
+    "2100 房地产法律法规/未命名.canvas",
+    "1800 合同法律法规/未命名.canvas",
+    "1300 上市公司法律法规/90 附录/未命名.canvas",
+    "Canvas/未命名.canvas"
+  ]
+}

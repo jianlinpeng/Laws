@@ -1,0 +1,276 @@
+{
+  "main": {
+    "id": "9ead64351a62b676",
+    "type": "split",
+    "children": [
+      {
+        "id": "f9fa5461837e2811",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "33d26a50bd65c022",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 现行有效法律/60 社会法/中华人民共和国安全生产法.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "中华人民共和国安全生产法"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0595dda9894a8387",
+    "type": "split",
+    "children": [
+      {
+        "id": "86dc4845f1d0bd87",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6fb0bc99b0712b0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e66f860fb7ad8c75",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "255bf4e0f8b5e629",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "bookmarks"
+            }
+          },
+          {
+            "id": "ba621fb35a9f69d5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "通过日期",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 306.5
+  },
+  "right": {
+    "id": "a0b6129d85d5e8a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "396397ce687b1862",
+        "type": "tabs",
+        "dimension": 81.06060606060606,
+        "children": [
+          {
+            "id": "286344d1390f4aa3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "100 现行有效法律/60 社会法/中华人民共和国安全生产法.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 中华人民共和国安全生产法"
+            }
+          },
+          {
+            "id": "ec4a5dcaad4e4e75",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "100 现行有效法律/20 宪法相关法/中华人民共和国法治宣传教育法.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "00 主页 的反向链接列表"
+            }
+          },
+          {
+            "id": "6aaa9af32fd42921",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "最高检指导性案例/00 inbox/最高检指导性案例.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "00 主页 的出链列表"
+            }
+          },
+          {
+            "id": "abf3872fe4c7c302",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "000 Inbox/00 Home/00 主页.md"
+              },
+              "icon": "lucide-info",
+              "title": "00 主页的笔记属性"
+            }
+          },
+          {
+            "id": "cb5cdea5b59fe786",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ]
+      },
+      {
+        "id": "a122c72550995a10",
+        "type": "tabs",
+        "dimension": 18.939393939393938,
+        "children": [
+          {
+            "id": "8b0f27a64bc6231f",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "bases:Create new base": false,
+      "copilot:Open Copilot Chat": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-regex-pipeline:Regex Rulesets": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "33d26a50bd65c022",
+  "lastOpenFiles": [
+    "100 现行有效法律/20 宪法相关法/全国人民代表大会常务委员会关于批准中央军事委员会《关于授予军队离休干部中国人民解放军功勋荣誉章的规定》的决定.md",
+    "000 Inbox/00 Home/00 主页.md",
+    "000 Inbox/10 使用指南/00 2025 法律法规库介绍.md",
+    "100 现行有效法律/00 inbox/中华人民共和国仲裁法（2025 修订）.md",
+    "Bases/01 现行有效法律_base.md",
+    "Bases/02 典型案例_base.md",
+    "Bases/00 刑事审判参考.base",
+    "copilot-conversations/你好@20250702_185258.md",
+    "copilot-conversations/给出有关退学，开除学籍的案例@20250713_191244.md",
+    "copilot-conversations/对比{activeNote}与[[婚姻登记工作规范]]的内容，对{activeNote}的更新内容进行详细分析，同时给出对比图表、流程图、思维导图分析，并索引本地文件及文件的具体条款，注意索引文件条款@2025051.md",
+    "copilot-custom-prompts/Remove URLs.md",
+    "copilot-custom-prompts/Make shorter.md",
+    "copilot-custom-prompts/Generate table of contents.md",
+    "copilot-custom-prompts/Generate glossary.md",
+    "copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot-custom-prompts/Explain like I am 5.md",
+    "copilot-custom-prompts/{activeNote}-分析.md",
+    "Note Refactor/一、单项选择题.md",
+    "copilot-conversations/总结下最近小米汽车虚假宣传的问题.md",
+    "民政部关于规范生父母有特殊困难无力抚养的子女和社会散居孤儿收养工作的意见.md",
+    "民政部办公厅关于生父母一方为非中国内地居民送养内地子女有关问题的意见.md",
+    "copilot-conversations/大赛@20250702_182636.md",
+    "100 现行有效法律/00 inbox/全国人民代表大会常务委员会关于修改部分法律的决定.md",
+    "100 现行有效法律/00 inbox/全国人民代表大会常务委员会关于修改《中华人民共和国村民委员会组织法》的决定.md",
+    "100 现行有效法律/00 inbox/00 现行有效法律-总.md",
+    "000 Inbox/00 Home/常用法律法规-总.md",
+    "Bases/03 指导性案例_base.md",
+    "Attachment/pig/Pasted image 20250426163810.png",
+    "Attachment/pig/Pasted image 20250424190107.png",
+    "Attachment/pig/Pasted image 20250423165424.png",
+    "Attachment/pig/Pasted image 20250423165352.png",
+    "Attachment/pig/Pasted image 20250423162338.png",
+    "Attachment/pig/c04eee2700fe614ddd0899334601b135_MD5.webp",
+    "Attachment/pig/a5689f927cfac35d4b91ba9a4b25a1f8_MD5.webp",
+    "Attachment/pig/9066facf28e68b92bcc8c0ea7549dcd4_MD5.webp",
+    "Attachment/pig/1372a1c00f760f1b0277fc9eda3e3ef5_MD5.webp",
+    "Attachment/pig/9be4c7f333456b40ff52522970aba2f3_MD5.webp",
+    "000 Inbox/40 会议",
+    "100 现行有效法律.zip",
+    "检察办案.zip",
+    "100 现行有效法律/00 inbox/未命名",
+    "建库资料/常见犯罪的量刑",
+    "建库资料/工会书画介绍",
+    "regex-rulesets/index.txt.sb-49bde299-Z10B9d",
+    "regex-rulesets/03 显示双链.sb-49bde299-rmXNzu",
+    "/regex-rulesets/index.txt",
+    "200 民法及司法解释/典型案例/未命名.canvas",
+    "Canvas/未命名 1.canvas",
+    "Canvas/未命名.canvas",
+    "000 Inbox/10 Home/未命名.canvas",
+    "2700 医疗法律法规/未命名.canvas",
+    "2300 市场监管法律法规/未命名.canvas",
+    "2100 房地产法律法规/未命名.canvas",
+    "1800 合同法律法规/未命名.canvas",
+    "1300 上市公司法律法规/90 附录/未命名.canvas"
+  ]
+}

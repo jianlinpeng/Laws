@@ -1,0 +1,766 @@
+@media only screen and (max-width: 768px) {
+	/* 针对手机： */
+	table {
+		table-layout: auto !important;
+	}
+}
+
+/* 设置浅色模式 */
+.theme-light table:not(.x-color-picker-table){
+	color: hsl(0, 0%, 20%) !important;
+	/* background-color: red;	 */
+	font-family: sans-serif !important;
+	font-style: normal !important;
+	width: 90% !important;
+	/* 三线表第一条线宽度 */
+	border-top: 2px solid hsl(0, 0%, 66%) !important;
+	/* 三线表第三条线宽度 */
+	border-bottom: 2px solid hsl(0, 0%, 66%) !important;
+	border-collapse: collapse !important;
+	border-spacing: 0px !important;
+	/* border: 0px solid #b3b3b3 !important; */
+	/* 自动布局表格宽度，如果有时内容太紧建议直接加空格吧，我自己看不惯和页面等宽的大表格 */
+	margin: 5px auto !important;
+	overflow-x: visible !important;
+	/* box-shadow: 10px 5px 5px hsl(0, 80%, 80%) !important; */
+	page-break-inside: avoid;
+	/* 使表格默认居中；虽然这个代码不好，但好像没别的实现办法 */
+	/* margin: 0 15px; */
+	table-layout: fixed !important;
+}
+
+.theme-light .table-auto table:not(.x-color-picker-table){
+	table-layout: auto !important;
+}
+.theme-light thead {
+	border-bottom: 2px solid hsl(0, 0%, 66%) !important;
+}
+.theme-light .table-wrapper{
+	width: 100% !important;
+	margin: 15px auto !important;
+}
+.theme-light .table-editor {
+	width: 100% !important;  /* 无无效 */
+	margin: 15px auto !important;
+	/* color:  red !important; */
+}
+.theme-light caption {
+	font-family: sans-serif !important;
+	font-size: 1.2em !important;
+	font-weight: bold !important;
+	padding: 10px !important;
+}
+
+/* 设置表格边框线 */
+.theme-light table:not(.x-color-picker-table) th,
+.theme-light table:not(.x-color-picker-table) td {
+    /* border: 1px solid #dfe2e5 !important; */
+	border: 1px solid hsl(0, 0%, 66%) !important;
+}
+
+/* 设置表格基本属性：基准色、内边距、边框 */
+.theme-light table:not(.x-color-picker-table) tr th, table:not(.x-color-picker-table) tr td{
+	font-family: sans-serif !important;
+	/* font-size: 9.5pt !important; */
+	/* border: 1px solid #dfe2e5 !important; */
+	color: hsl(0, 0%, 20%) !important;
+    /* background-color: #fff !important; */
+	text-align: center !important;
+	vertical-align: middle !important;
+	padding: 12px 6px 9px !important;
+}
+
+.theme-light .serif table:not(.x-color-picker-table) tr th, table:not(.x-color-picker-table) tr td{
+	font-family: serif !important;
+}
+
+/* 设置表格对齐样式 */
+.theme-light th{
+	text-align: center !important;
+}
+.theme-light td {
+	text-align: center !important;
+}
+/* 设置表头、表体、表尾 */
+.theme-light thead tr th{
+	font-family: inherit; /* 继承serif */
+	color: hsl(0, 0%, 20%) !important;
+	/* color: hsl(0, 0%, 92%) !important; */
+	background-color: #fff !important;
+	font-size: 1em !important;
+	font-weight: bold !important;
+	text-align: center !important;
+	padding: 12px 6px 9px !important;
+}
+.theme-light table:not(.x-color-picker-table) tbody tr td{
+	color: hsl(0, 0%, 20%) !important;
+	background-color: #fff !important;
+	font-family: sans-serif !important;
+	text-align: center !important;
+	/* padding: 12px 6px 9px 6px !important; */
+	padding: 12px 6px 9px !important;
+}
+
+.theme-light .serif table:not(.x-color-picker-table) tbody tr td{
+	font-family: serif !important;
+}
+
+.theme-light .table-index table:not(.x-color-picker-table) tbody tr td{
+    text-indent: 2em !important;  /* 设置段落首行缩进 */
+}
+
+.theme-light .table-left table:not(.x-color-picker-table) tbody tr td{
+	text-align: left !important;
+}
+.theme-light tfoot tr th{
+	font-family: inherit; /* 继承serif */
+	/* color: hsl(0, 0%, 20%) !important; */
+	/* color: hsl(0, 0%, 92%) !important; */
+	font-size: 1em !important;
+	font-weight: bold !important;
+	text-align: center !important;
+    /* padding: 12px 6px 9px 6px !important; */
+	padding: 12px 6px 9px !important;
+}
+
+
+/* ================================== */
+/* 七彩表格 */
+/* ================================== */
+
+/* 一、表头、表体、表尾配色 */
+.theme-light .table1 table:not(.x-color-picker-table) thead tr th,
+.theme-light .table1 table:not(.x-color-picker-table) tfoot tr th {
+	background-color: hsl(223, 65%, 70%) !important;
+}
+.theme-light .table2 thead tr th,
+.theme-light .table2 tfoot tr th {
+	background-color: hsl(330, 65%, 70%) !important;
+}
+.theme-light .table3 thead tr th,
+.theme-light .table3 tfoot tr th {
+	background-color: hsl(40,85%, 70%) !important;
+}
+.theme-light .table4 thead tr th,
+.theme-light .table4 tfoot tr th {
+	background-color: hsl(188, 65%, 70%) !important;
+}
+.theme-light .table5 thead tr th,
+.theme-light .table5 tfoot tr th {
+	background-color: hsl(282, 65%, 70%) !important;
+}
+
+
+/* 二、设置表格奇数行背景色 */
+.theme-light .table1 table:not(.x-color-picker-table) tbody tr:nth-child(2n) td{
+	background-color: hsl(223, 65%, 92%) !important;
+}
+.theme-light .table2 table:not(.x-color-picker-table) tbody tr:nth-child(2n) td{
+	background-color: hsl(330, 65%, 92%) !important;
+}
+.theme-light .table3 table:not(.x-color-picker-table) tbody tr:nth-child(2n) td{
+	background-color: hsl(40, 85%, 92%) !important;
+}
+.theme-light .table4 table:not(.x-color-picker-table) tbody tr:nth-child(2n) td{
+	background-color: hsl(188, 65%, 92%) !important;
+}
+.theme-light .table5 table:not(.x-color-picker-table) tbody tr:nth-child(2n) td{
+	background-color: hsl(282, 65%, 92%) !important;
+}
+
+/* 三、设置事件-鼠标经过 */
+.theme-light .table1 thead tr td:hover,
+.theme-light .table1 thead tr th:hover {
+    /* background-color: rgba(31, 78, 164, 0.46) !important; */
+    background-color: hsl(223, 65%, 70%) !important;
+	/* font-size: 1.5em !important; */
+	color: #fff !important;
+	/* color: #333 !important; */
+	/* font-weight: bolder !important; */
+}
+.theme-light .table1 table:not(.x-color-picker-table) tbody tr td:hover{
+	/* background-color: rgba(31, 78, 164, 0.46) !important; */
+	background-color: hsl(223, 65%, 85%) !important;
+	/* font-size: 1.5em !important; */
+	color: #fff !important;
+	/* font-weight: bolder !important; */
+}
+.theme-light .table2 thead tr td:hover,
+.theme-light .table2 thead tr th:hover {
+    /* background-color: rgba(31, 78, 164, 0.46) !important; */
+    background-color: hsl(330, 65%, 70%) !important;
+	/* font-size: 1.5em !important; */
+	color: #fff !important;
+	/* color: #333 !important; */
+	/* font-weight: bolder !important; */
+}
+/* .markdown-preview-view */
+.theme-light .table2 table:not(.x-color-picker-table) tbody tr td:hover{
+	/* background-color: rgba(31, 78, 164, 0.46) !important; */
+	background-color: hsl(330, 65%, 85%) !important;
+	/* font-size: 1.5em !important; */
+	color: #fff !important;
+	/* font-weight: bolder !important; */
+}
+.theme-light .table3 thead tr td:hover,
+.theme-light .table3 thead tr th:hover {
+    /* background-color: rgba(31, 78, 164, 0.46) !important; */
+    background-color: hsl(40, 85%, 70%) !important;
+	/* font-size: 1.5em !important; */
+	color: #fff !important;
+	/* color: #333 !important; */
+	/* font-weight: bolder !important; */
+}
+/* .markdown-preview-view */
+.theme-light .table3 table:not(.x-color-picker-table) tbody tr td:hover{
+	/* background-color: rgba(31, 78, 164, 0.46) !important; */
+	background-color: hsl(40, 85%, 85%) !important;
+	/* font-size: 1.5em !important; */
+	color: #fff !important;
+	/* font-weight: bolder !important; */
+}
+.theme-light .table4 thead tr td:hover,
+.theme-light .table4 thead tr th:hover {
+    /* background-color: rgba(31, 78, 164, 0.46) !important; */
+    background-color: hsl(188, 85%, 70%) !important;
+	/* font-size: 1.5em !important; */
+	color: #fff !important;
+	/* color: #333 !important; */
+	/* font-weight: bolder !important; */
+}
+/* .markdown-preview-view */
+.theme-light .table4 table:not(.x-color-picker-table) tbody tr td:hover{
+	/* background-color: rgba(31, 78, 164, 0.46) !important; */
+	background-color: hsl(188, 85%, 85%) !important;
+	/* font-size: 1.5em !important; */
+	color: #fff !important;
+	/* font-weight: bolder !important; */
+}
+.theme-light .table5 thead tr td:hover,
+.theme-light .table5 thead tr th:hover {
+    /* background-color: rgba(31, 78, 164, 0.46) !important; */
+    background-color: hsl(282, 85%, 70%) !important;
+	/* font-size: 1.5em !important; */
+	color: #fff !important;
+	/* color: #333 !important; */
+	/* font-weight: bolder !important; */
+}
+/* .markdown-preview-view */
+.theme-light .table5 table:not(.x-color-picker-table) tbody tr td:hover{
+	/* background-color: rgba(31, 78, 164, 0.46) !important; */
+	background-color: hsl(282, 85%, 85%) !important;
+	/* font-size: 1.5em !important; */
+	color: #fff !important;
+	/* font-weight: bolder !important; */
+}
+
+.theme-light .table-words table:not(.x-color-picker-table){
+	color: hsl(0, 0%, 20%) !important;
+	/* background-color: red;	 */
+	font-family: sans-serif !important;
+	font-style: normal !important;
+	width: 100% !important;
+	/* 三线表第一条线宽度 */
+	border-top: 2px solid hsl(0, 0%, 66%) !important;
+	/* 三线表第三条线宽度 */
+	border-bottom: 2px solid hsl(0, 0%, 66%) !important;
+	border-collapse: collapse !important;
+	border-spacing: 0px !important;
+	/* border: 0px solid #b3b3b3 !important; */
+	/* 自动布局表格宽度，如果有时内容太紧建议直接加空格吧，我自己看不惯和页面等宽的大表格 */
+	margin: 5px auto !important;
+	overflow-x: visible !important;
+	/* box-shadow: 10px 5px 5px hsl(0, 80%, 80%) !important; */
+	page-break-inside: avoid;
+	/* 使表格默认居中；虽然这个代码不好，但好像没别的实现办法 */
+	/* margin: 0 15px; */
+	table-layout: fixed !important;
+}
+.theme-light .table-words table thead th {
+	border-left: 0 !important;
+	border-right: 0 !important;
+	/* 三线表第一条线宽度 */
+	border-top: 2px solid hsl(0, 0%, 66%) !important;
+	/* 三线表第二条线宽度 */
+	border-bottom: 2px solid hsl(0, 0%, 66%) !important;	
+}
+.theme-light .table-words table tbody td{
+	border-left: 0 !important;
+	border-right: 0 !important;
+	border-top: 1px solid hsl(0, 0%, 66%) !important;
+	border-bottom: 1px solid hsl(0, 0%, 66%) !important;	
+}
+.theme-light .table-words table tbody tr td:nth-child(1){
+	border-right: 1px solid hsl(0, 0%, 66%) !important;
+	width: 20% !important;
+}
+.theme-light .table-anki .table-words table:not(.x-color-picker-table){
+	color: hsl(0, 0%, 20%) !important;
+	/* background-color: red;	 */
+	font-family: sans-serif !important;
+	font-style: normal !important;
+	width: 100% !important;
+	/* 三线表第一条线宽度 */
+	border-top: 2px solid hsl(0, 0%, 66%) !important;
+	/* 三线表第三条线宽度 */
+	border-bottom: 2px solid hsl(0, 0%, 66%) !important;
+	border-collapse: collapse !important;
+	border-spacing: 0px !important;
+	/* border: 0px solid #b3b3b3 !important; */
+	/* 自动布局表格宽度，如果有时内容太紧建议直接加空格吧，我自己看不惯和页面等宽的大表格 */
+	margin: 5px auto !important;
+	overflow-x: visible !important;
+	/* box-shadow: 10px 5px 5px hsl(0, 80%, 80%) !important; */
+	page-break-inside: avoid;
+	/* 使表格默认居中；虽然这个代码不好，但好像没别的实现办法 */
+	/* margin: 0 15px; */
+	table-layout: fixed !important;
+}
+
+.theme-light .table-anki table thead th {
+	border-left: 0 !important;
+	border-right: 0 !important;
+	text-align: center;
+	/* 三线表第一条线宽度 */
+	border-top: 2px solid hsl(0, 0%, 66%) !important;
+	/* 三线表第二条线宽度 */
+	border-bottom: 2px solid hsl(0, 0%, 66%) !important;	
+}
+.theme-light h1.anki {
+	color: hsl(224, 57%, 35%) !important;
+	text-align: center !important;
+}
+.theme-light h2.anki {
+	color: #fff !important;
+	background-color: hsl(224, 57%, 35%) !important;
+	text-align: center !important;
+	padding: 10px !important;
+}
+.theme-light div.anki-container {
+	border: 2px solid hsl(0, 0%, 70%) !important;
+	border-radius: 10px !important;
+}
+.theme-light div.video {
+	color: pink !important;
+	background-color: pink !important;
+	margin: 6px !important;
+}
+.theme-light div.anki {
+	/* border-collapse: separate !important; */
+	/* background-color: red; */
+	border: 3px dashed hsl(0, 0%, 75%) !important;
+	border-radius: 10px !important;
+	padding: 6px 12px !important;
+	margin: 6px !important;
+}
+.theme-light hr.hs1{
+	color: red !important;
+	margin: 12px 2px !important;
+}
+.theme-light p.en {
+	color: hsl(11, 50%, 35%) !important;
+	font-weight: bolder;
+	margin: 3px 6px !important;
+}
+.theme-light p.zh {
+	color: hsl(11, 70%, 35%) !important;
+	margin: 3px 6px !important;
+}
+.theme-light hr.hs2 {
+	color: red !important;
+	margin: 12px 2px  !important;
+}
+.theme-light p.zd {
+	font-weight: bolder;
+	color: hsl(11, 50%, 35%) !important;
+	text-align: left !important;
+	margin: 3px;
+}
+.theme-light p.words {
+	padding-left: 12px;
+	text-align: left !important;
+	color: hsl(11, 50%, 35%) !important;
+	margin: 3px;
+}
+
+/* ============================ */
+/* 设置深色模式 */
+/* ============================ */
+.theme-dark table:not(.x-color-picker-table){
+	color: hsl(0, 0%, 20%) !important;
+	/* background-color: red;	 */
+	font-family: sans-serif !important;
+	font-style: normal !important;
+	width: 90% !important;
+	/* 三线表第一条线宽度 */
+	border-top: 2px solid hsl(0, 0%, 66%) !important;
+	/* 三线表第三条线宽度 */
+	border-bottom: 2px solid hsl(0, 0%, 66%) !important;
+	border-collapse: collapse !important;
+	border-spacing: 0px !important;
+	/* border: 0px solid #b3b3b3 !important; */
+	/* 自动布局表格宽度，如果有时内容太紧建议直接加空格吧，我自己看不惯和页面等宽的大表格 */
+	margin: 5px auto !important;
+	overflow-x: visible !important;
+	/* box-shadow: 10px 5px 5px hsl(0, 80%, 80%) !important; */
+	page-break-inside: avoid;
+	/* 使表格默认居中；虽然这个代码不好，但好像没别的实现办法 */
+	/* margin: 0 15px; */
+	table-layout: fixed !important;
+}
+/* 设置表格对齐样式 */
+.theme-dark .table-auto table:not(.x-color-picker-table){
+	table-layout: auto !important;
+}
+.theme-dark th{
+	text-align: center !important;
+}
+.theme-dark td {
+	text-align: center !important;
+}
+
+/* 设置表格样式 */
+.theme-dark thead {
+	border-bottom: 2px solid hsl(0, 0%, 66%) !important;
+}
+.theme-dark .table-wrapper{
+	width: 100% !important;
+	margin: 15px auto !important;
+}
+.theme-dark .table-editor {
+	width: 100% !important;  /* 无无效 */
+	margin: 15px auto !important;
+	/* color:  red !important; */
+}
+.theme-dark caption {
+	font-family: sans-serif !important;
+	font-size: 1.2em !important;
+	font-weight: bold !important;
+	padding: 10px !important;
+}
+
+/* 设置表格边框线 */
+.theme-dark table:not(.x-color-picker-table) th,
+.theme-dark table:not(.x-color-picker-table) td {
+    /* border: 1px solid #dfe2e5 !important; */
+	border: 1px solid hsl(0, 0%, 66%) !important;
+}
+
+/* 设置表格基本属性：基准色、内边距、边框 */
+.theme-dark table:not(.x-color-picker-table) tr th, table:not(.x-color-picker-table) tr td{
+	font-family: sans-serif !important;
+	/* font-size: 9.5pt !important; */
+	/* border: 1px solid #dfe2e5 !important; */
+	color:hsl(0, 0%, 80%) !important;
+    /* background-color: #fff !important; */
+	text-align: center !important;
+	vertical-align: middle !important;
+	padding: 12px 6px 9px !important;
+}
+
+/* 设置表头、表体、表尾 */
+.theme-dark thead tr th{
+	font-family: inherit; /* 继承serif */
+	/* color: hsl(0, 0%, 20%) !important; */
+	/* color: hsl(0, 0%, 92%) !important; */
+	color:hsl(0, 0%, 80%) !important;
+	background-color: hsl(0, 0%, 20%) !important;
+	font-size: 1em !important;
+	font-weight: bold !important;
+	text-align: center !important;
+	padding: 12px 6px 9px !important;
+}
+.theme-dark table:not(.x-color-picker-table) tbody tr td{
+	color:hsl(0, 0%, 80%) !important;
+	background-color: hsl(0, 0%, 20%) !important;
+	font-family: sans-serif !important;
+	text-align: center !important;
+	/* padding: 12px 6px 9px 6px !important; */
+	padding: 12px 6px 9px !important;
+}
+.theme-dark .table-left table:not(.x-color-picker-table) tbody tr td{
+	text-align: left !important;
+}
+.theme-dark tfoot tr th{
+	font-family: inherit; /* 继承serif */
+	/* color: hsl(0, 0%, 20%) !important; */
+	/* color: hsl(0, 0%, 92%) !important; */
+	font-size: 1em !important;
+	font-weight: bold !important;
+	text-align: center !important;
+    /* padding: 12px 6px 9px 6px !important; */
+	padding: 12px 6px 9px !important;
+}
+
+
+/* ================================== */
+/* 七彩表格 */
+/* ================================== */
+/* 一、表头、表体、表尾配色 */
+.theme-dark .table1 table:not(.x-color-picker-table) thead tr th,
+.theme-dark .table1 table:not(.x-color-picker-table) tfoot tr th {
+	background-color: hsl(223, 65%, 70%) !important;
+}
+.theme-dark .table2 thead tr th,
+.theme-dark .table2 tfoot tr th {
+	background-color: hsl(330, 65%, 70%) !important;
+}
+.theme-dark .table3 thead tr th,
+.theme-dark .table3 tfoot tr th {
+	background-color: hsl(40,85%, 70%) !important;
+}
+.theme-dark .table4 thead tr th,
+.theme-dark .table4 tfoot tr th {
+	background-color: hsl(188, 65%, 70%) !important;
+}
+.theme-dark .table5 thead tr th,
+.theme-dark .table5 tfoot tr th {
+	background-color: hsl(282, 65%, 70%) !important;
+}
+
+/* 二、设置表格奇数行背景色 */
+.theme-dark .table1 table:not(.x-color-picker-table) tbody tr:nth-child(2n) td{
+	background-color: hsl(223, 65%, 92%) !important;
+}
+.theme-dark .table2 table:not(.x-color-picker-table) tbody tr:nth-child(2n) td{
+	background-color: hsl(330, 65%, 92%) !important;
+}
+.theme-dark .table3 table:not(.x-color-picker-table) tbody tr:nth-child(2n) td{
+	background-color: hsl(40, 85%, 92%) !important;
+}
+.theme-dark .table4 table:not(.x-color-picker-table) tbody tr:nth-child(2n) td{
+	background-color: hsl(188, 65%, 92%) !important;
+}
+.theme-dark .table5 table:not(.x-color-picker-table) tbody tr:nth-child(2n) td{
+	background-color: hsl(282, 65%, 92%) !important;
+}
+
+/* 三、设置事件-鼠标经过 */
+.theme-dark .table1 thead tr td:hover,
+.theme-dark .table1 thead tr th:hover {
+    /* background-color: rgba(31, 78, 164, 0.46) !important; */
+    background-color: hsl(223, 65%, 70%) !important;
+	/* font-size: 1.5em !important; */
+	color: #fff !important;
+	/* color: #333 !important; */
+	/* font-weight: bolder !important; */
+}
+.theme-dark .table1 table:not(.x-color-picker-table) tbody tr td:hover{
+	/* background-color: rgba(31, 78, 164, 0.46) !important; */
+	background-color: hsl(223, 65%, 85%) !important;
+	/* font-size: 1.5em !important; */
+	color: #fff !important;
+	/* font-weight: bolder !important; */
+}
+.theme-dark .table2 thead tr td:hover,
+.theme-dark .table2 thead tr th:hover {
+    /* background-color: rgba(31, 78, 164, 0.46) !important; */
+    background-color: hsl(330, 65%, 70%) !important;
+	/* font-size: 1.5em !important; */
+	color: #fff !important;
+	/* color: #333 !important; */
+	/* font-weight: bolder !important; */
+}
+/* .markdown-preview-view */
+.theme-dark .table2 table:not(.x-color-picker-table) tbody tr td:hover{
+	/* background-color: rgba(31, 78, 164, 0.46) !important; */
+	background-color: hsl(330, 65%, 85%) !important;
+	/* font-size: 1.5em !important; */
+	color: #fff !important;
+	/* font-weight: bolder !important; */
+}
+.theme-dark .table3 thead tr td:hover,
+.theme-dark .table3 thead tr th:hover {
+    /* background-color: rgba(31, 78, 164, 0.46) !important; */
+    background-color: hsl(40, 85%, 70%) !important;
+	/* font-size: 1.5em !important; */
+	color: #fff !important;
+	/* color: #333 !important; */
+	/* font-weight: bolder !important; */
+}
+/* .markdown-preview-view */
+.theme-dark .table3 table:not(.x-color-picker-table) tbody tr td:hover{
+	/* background-color: rgba(31, 78, 164, 0.46) !important; */
+	background-color: hsl(40, 85%, 85%) !important;
+	/* font-size: 1.5em !important; */
+	color: #fff !important;
+	/* font-weight: bolder !important; */
+}
+.theme-dark .table4 thead tr td:hover,
+.theme-dark .table4 thead tr th:hover {
+    /* background-color: rgba(31, 78, 164, 0.46) !important; */
+    background-color: hsl(188, 85%, 70%) !important;
+	/* font-size: 1.5em !important; */
+	color: #fff !important;
+	/* color: #333 !important; */
+	/* font-weight: bolder !important; */
+}
+/* .markdown-preview-view */
+.theme-dark .table4 table:not(.x-color-picker-table) tbody tr td:hover{
+	/* background-color: rgba(31, 78, 164, 0.46) !important; */
+	background-color: hsl(188, 85%, 85%) !important;
+	/* font-size: 1.5em !important; */
+	color: #fff !important;
+	/* font-weight: bolder !important; */
+}
+.theme-dark .table5 thead tr td:hover,
+.theme-dark .table5 thead tr th:hover {
+    /* background-color: rgba(31, 78, 164, 0.46) !important; */
+    background-color: hsl(282, 85%, 70%) !important;
+	/* font-size: 1.5em !important; */
+	color: #fff !important;
+	/* color: #333 !important; */
+	/* font-weight: bolder !important; */
+}
+/* .markdown-preview-view */
+.theme-dark .table5 table:not(.x-color-picker-table) tbody tr td:hover{
+	/* background-color: rgba(31, 78, 164, 0.46) !important; */
+	background-color: hsl(282, 85%, 85%) !important;
+	/* font-size: 1.5em !important; */
+	color: #fff !important;
+	/* font-weight: bolder !important; */
+}
+
+.theme-dark .table-words table:not(.x-color-picker-table){
+	color: hsl(0, 0%, 20%) !important;
+	/* background-color: red;	 */
+	font-family: sans-serif !important;
+	font-style: normal !important;
+	width: 100% !important;
+	/* 三线表第一条线宽度 */
+	border-top: 2px solid hsl(0, 0%, 66%) !important;
+	/* 三线表第三条线宽度 */
+	border-bottom: 2px solid hsl(0, 0%, 66%) !important;
+	border-collapse: collapse !important;
+	border-spacing: 0px !important;
+	/* border: 0px solid #b3b3b3 !important; */
+	/* 自动布局表格宽度，如果有时内容太紧建议直接加空格吧，我自己看不惯和页面等宽的大表格 */
+	margin: 5px auto !important;
+	overflow-x: visible !important;
+	/* box-shadow: 10px 5px 5px hsl(0, 80%, 80%) !important; */
+	page-break-inside: avoid;
+	/* 使表格默认居中；虽然这个代码不好，但好像没别的实现办法 */
+	/* margin: 0 15px; */
+	table-layout: fixed !important;
+}
+
+.theme-dark .table-words table thead th {
+	border-left: 0 !important;
+	border-right: 0 !important;
+	/* 三线表第一条线宽度 */
+	border-top: 2px solid hsl(0, 0%, 66%) !important;
+	/* 三线表第二条线宽度 */
+	border-bottom: 2px solid hsl(0, 0%, 66%) !important;	
+}
+
+.theme-dark .table-words table tbody td{
+	border-left: 0 !important;
+	border-right: 0 !important;
+	border-top: 1px solid hsl(0, 0%, 66%) !important;
+	border-bottom: 1px solid hsl(0, 0%, 66%) !important;	
+}
+
+.theme-dark .table-words table tbody tr td:nth-child(1){
+	border-right: 1px solid hsl(0, 0%, 66%) !important;
+	width: 20% !important;
+}
+
+.theme-dark .table-anki .table-words table:not(.x-color-picker-table){
+	color: hsl(0, 0%, 20%) !important;
+	/* background-color: red;	 */
+	font-family: sans-serif !important;
+	font-style: normal !important;
+	width: 100% !important;
+	/* 三线表第一条线宽度 */
+	border-top: 2px solid hsl(0, 0%, 66%) !important;
+	/* 三线表第三条线宽度 */
+	border-bottom: 2px solid hsl(0, 0%, 66%) !important;
+	border-collapse: collapse !important;
+	border-spacing: 0px !important;
+	/* border: 0px solid #b3b3b3 !important; */
+	/* 自动布局表格宽度，如果有时内容太紧建议直接加空格吧，我自己看不惯和页面等宽的大表格 */
+	margin: 5px auto !important;
+	overflow-x: visible !important;
+	/* box-shadow: 10px 5px 5px hsl(0, 80%, 80%) !important; */
+	page-break-inside: avoid;
+	/* 使表格默认居中；虽然这个代码不好，但好像没别的实现办法 */
+	/* margin: 0 15px; */
+	table-layout: fixed !important;
+}
+
+.theme-dark .table-anki table thead th {
+	border-left: 0 !important;
+	border-right: 0 !important;
+	text-align: center;
+	/* 三线表第一条线宽度 */
+	border-top: 2px solid hsl(0, 0%, 66%) !important;
+	/* 三线表第二条线宽度 */
+	border-bottom: 2px solid hsl(0, 0%, 66%) !important;	
+}
+
+.theme-dark h1.anki {
+	color: hsl(224, 57%, 35%) !important;
+	text-align: center !important;
+}
+
+.theme-dark h2.anki {
+	color: #fff !important;
+	background-color: hsl(224, 57%, 35%) !important;
+	text-align: center !important;
+	padding: 10px !important;
+}
+
+.theme-dark div.anki-container {
+	border: 2px solid hsl(0, 0%, 70%) !important;
+	border-radius: 10px !important;
+}
+
+.theme-dark div.video {
+	color: pink !important;
+	background-color: pink !important;
+	margin: 6px !important;
+}
+.theme-dark div.anki {
+	/* border-collapse: separate !important; */
+	/* background-color: red; */
+	border: 3px dashed hsl(0, 0%, 75%) !important;
+	border-radius: 10px !important;
+	padding: 6px 12px !important;
+	margin: 6px !important;
+}
+
+.theme-dark hr.hs1{
+	color: red !important;
+	margin: 12px 2px !important;
+}
+
+.theme-dark p.en {
+	color: hsl(11, 50%, 35%) !important;
+	font-weight: bolder;
+	margin: 3px 6px !important;
+}
+
+.theme-dark p.zh {
+	color: hsl(11, 70%, 35%) !important;
+	margin: 3px 6px !important;
+}
+
+.theme-dark hr.hs2 {
+	color: red !important;
+	margin: 12px 2px  !important;
+}
+
+.theme-dark p.zd {
+	font-weight: bolder;
+	color: hsl(11, 50%, 35%) !important;
+	text-align: left !important;
+	margin: 3px;
+}
+
+.theme-dark p.words {
+	padding-left: 12px;
+	text-align: left !important;
+	color: hsl(11, 50%, 35%) !important;
+	margin: 3px;
+}
+

@@ -1,0 +1,663 @@
+{
+  "workspaces": {
+    "01 单页模式": {
+      "main": {
+        "id": "9ead64351a62b676",
+        "type": "split",
+        "children": [
+          {
+            "id": "edcaa373c5c98831",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "973e19cabaf7d3e3",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "新标签页"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "0595dda9894a8387",
+        "type": "split",
+        "children": [
+          {
+            "id": "86dc4845f1d0bd87",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b6fb0bc99b0712b0",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": true
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "文件列表"
+                }
+              },
+              {
+                "id": "e66f860fb7ad8c75",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "标签"
+                }
+              },
+              {
+                "id": "255bf4e0f8b5e629",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "书签"
+                }
+              },
+              {
+                "id": "ba621fb35a9f69d5",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "通过日期",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 306.5
+      },
+      "right": {
+        "id": "a0b6129d85d5e8a2",
+        "type": "split",
+        "children": [
+          {
+            "id": "396397ce687b1862",
+            "type": "tabs",
+            "dimension": 81.06060606060606,
+            "children": [
+              {
+                "id": "ec4a5dcaad4e4e75",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": true,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "反向链接"
+                }
+              },
+              {
+                "id": "6aaa9af32fd42921",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "300 法律/00 inbox/中华人民共和国现行有效法律（305件）.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "中华人民共和国现行有效法律（305件） 的出链列表"
+                }
+              },
+              {
+                "id": "286344d1390f4aa3",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "800 知识产权法律法规/70 植物新品种/中华人民共和国植物新品种保护条例实施细则（农业部分）.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "中华人民共和国现行有效法律（305件） 的大纲"
+                }
+              }
+            ]
+          },
+          {
+            "id": "a122c72550995a10",
+            "type": "tabs",
+            "dimension": 18.939393939393938,
+            "children": [
+              {
+                "id": "8b0f27a64bc6231f",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "homepage:Open homepage": false,
+          "media-extended:Open media": false,
+          "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
+          "flashcards-obsidian:Generate flashcards": false,
+          "templater-obsidian:Templater": false,
+          "obsidian-kanban:创建新看板": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": false,
+          "obsidian-excalidraw-plugin:新建绘图文件": false,
+          "workspaces:管理工作区布局": false
+        }
+      },
+      "active": "973e19cabaf7d3e3",
+      "mtime": "2025-03-19T19:19:07+08:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "400 环境工程",
+          "400 环境工程/10 双碳",
+          "400 环境工程/20 环评工程师考试",
+          "1000 法律",
+          "1000 法律/10 宪法",
+          "1000 法律/40 行政法"
+        ]
+      }
+    },
+    "02 双页模式": {
+      "main": {
+        "id": "9ead64351a62b676",
+        "type": "split",
+        "children": [
+          {
+            "id": "edcaa373c5c98831",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "973e19cabaf7d3e3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "400 环境工程/20 环评工程师考试/考试-anki.md",
+                    "mode": "preview",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "考试-anki"
+                },
+                "group": "c8ed7ca5c33a0105"
+              }
+            ]
+          },
+          {
+            "id": "c12fed0638ca8b3b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9da27a687fe92577",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "400 环境工程/20 环评工程师考试/考试-anki.md",
+                    "mode": "preview",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "考试-anki"
+                },
+                "group": "c8ed7ca5c33a0105"
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "0595dda9894a8387",
+        "type": "split",
+        "children": [
+          {
+            "id": "86dc4845f1d0bd87",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b6fb0bc99b0712b0",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": true
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "文件列表"
+                }
+              },
+              {
+                "id": "e66f860fb7ad8c75",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "标签"
+                }
+              },
+              {
+                "id": "255bf4e0f8b5e629",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "书签"
+                }
+              },
+              {
+                "id": "ba621fb35a9f69d5",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "通过日期",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 304.5
+      },
+      "right": {
+        "id": "a0b6129d85d5e8a2",
+        "type": "split",
+        "children": [
+          {
+            "id": "396397ce687b1862",
+            "type": "tabs",
+            "dimension": 81.06060606060606,
+            "children": [
+              {
+                "id": "ec4a5dcaad4e4e75",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "200 民法典及司法解释/50 执行/最高人民法院关于人民法院网络司法拍卖若干问题的规定.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": true,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "考试-anki 的反向链接列表"
+                }
+              },
+              {
+                "id": "6aaa9af32fd42921",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "300 法律/00 inbox/中华人民共和国现行有效法律（305件）.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "中华人民共和国现行有效法律（305件） 的出链列表"
+                }
+              },
+              {
+                "id": "286344d1390f4aa3",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "400 环境工程/20 环评工程师考试/考试-anki.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "考试-anki 的大纲"
+                }
+              }
+            ],
+            "currentTab": 2
+          },
+          {
+            "id": "a122c72550995a10",
+            "type": "tabs",
+            "dimension": 18.939393939393938,
+            "children": [
+              {
+                "id": "8b0f27a64bc6231f",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 305.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
+          "i18n:I18N": false,
+          "flashcards-obsidian:Generate flashcards": false,
+          "workspaces-plus:Manage workspaces": false,
+          "templater-obsidian:Templater": false,
+          "obsidian-kanban:创建新看板": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": false,
+          "obsidian-excalidraw-plugin:新建绘图文件": false,
+          "workspaces:管理工作区布局": false
+        }
+      },
+      "active": "286344d1390f4aa3",
+      "mtime": "2025-03-11T15:55:16+08:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "400 环境工程",
+          "400 环境工程/10 双碳",
+          "400 环境工程/20 环评工程师考试",
+          "1000 法律",
+          "1000 法律/10 宪法",
+          "1000 法律/40 行政法"
+        ]
+      }
+    },
+    "00 Inbox": {
+      "main": {
+        "id": "9ead64351a62b676",
+        "type": "split",
+        "children": [
+          {
+            "id": "edcaa373c5c98831",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "973e19cabaf7d3e3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "300 行政法及司法解释/00 inbox/行政法及司法解释-总.md",
+                    "mode": "preview",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "行政法及司法解释-总"
+                }
+              }
+            ]
+          },
+          {
+            "id": "0621444bad5f03aa",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e9577a91a85cf0e7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "300 行政法及司法解释/00 inbox/行政法及司法解释-总.md",
+                    "mode": "preview",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "行政法及司法解释-总"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "0595dda9894a8387",
+        "type": "split",
+        "children": [
+          {
+            "id": "86dc4845f1d0bd87",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b6fb0bc99b0712b0",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": true
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "文件列表"
+                }
+              },
+              {
+                "id": "e66f860fb7ad8c75",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "标签"
+                }
+              },
+              {
+                "id": "255bf4e0f8b5e629",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "书签"
+                }
+              },
+              {
+                "id": "ba621fb35a9f69d5",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "通过日期",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 306.5
+      },
+      "right": {
+        "id": "a0b6129d85d5e8a2",
+        "type": "split",
+        "children": [
+          {
+            "id": "396397ce687b1862",
+            "type": "tabs",
+            "dimension": 81.06060606060606,
+            "children": [
+              {
+                "id": "ec4a5dcaad4e4e75",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "300 行政法及司法解释/00 inbox/行政法及司法解释-总.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": true,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "行政法及司法解释-总 的反向链接列表"
+                }
+              },
+              {
+                "id": "6aaa9af32fd42921",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "400 刑法及司法解释/00 inbox/刑法及司法解释-总.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "中华人民共和国现行有效法律（305件） 的出链列表"
+                }
+              },
+              {
+                "id": "286344d1390f4aa3",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "400 刑法及司法解释/100 侵犯公民人身权利、民主权利罪/最高人民法院、最高人民检察院、公安部关于敦促拐卖妇女儿童相关犯罪嫌疑人投案自首的通告.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "中华人民共和国现行有效法律（305件） 的大纲"
+                }
+              }
+            ]
+          },
+          {
+            "id": "a122c72550995a10",
+            "type": "tabs",
+            "dimension": 18.939393939393938,
+            "children": [
+              {
+                "id": "8b0f27a64bc6231f",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "homepage:Open homepage": false,
+          "media-extended:Open media": false,
+          "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
+          "flashcards-obsidian:Generate flashcards": false,
+          "templater-obsidian:Templater": false,
+          "obsidian-kanban:创建新看板": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": false,
+          "obsidian-excalidraw-plugin:新建绘图文件": false,
+          "workspaces:管理工作区布局": false
+        }
+      },
+      "active": "e9577a91a85cf0e7",
+      "mtime": "2025-03-19T19:51:23+08:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "300 行政法及司法解释",
+          "300 行政法及司法解释/00 inbox"
+        ]
+      }
+    }
+  },
+  "active": "02 双页模式"
+}

@@ -1,0 +1,13 @@
+{
+  "includeFirstLineAsNoteHeading": false,
+  "excludeFirstLineInNote": false,
+  "openNewNote": true,
+  "headingFormat": "#",
+  "newFileLocation": 2,
+  "customFolder": "最高检指导性案例/00 inbox",
+  "fileNamePrefix": "",
+  "transcludeByDefault": false,
+  "noteLinkTemplate": "",
+  "refactoredNoteTemplate": "",
+  "normalizeHeaderLevels": false
+}

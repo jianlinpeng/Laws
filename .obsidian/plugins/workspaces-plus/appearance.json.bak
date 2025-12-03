@@ -1,0 +1,13 @@
+{
+  "accentColor": "#a880a3",
+  "enabledCssSnippets": [
+    "06 table-style-default",
+    "09 index",
+    "01 workspace",
+    "05 list-style",
+    "06 table-style",
+    "07 container-width"
+  ],
+  "textFontFamily": "Source Han Serif CN",
+  "cssTheme": "Minimal"
+}

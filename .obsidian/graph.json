@@ -1,0 +1,58 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#总-一级  ",
+      "color": {
+        "a": 1,
+        "rgb": 3065635
+      }
+    },
+    {
+      "query": "tag:#总-二级  ",
+      "color": {
+        "a": 1,
+        "rgb": 14978407
+      }
+    },
+    {
+      "query": "file:刑事审判参考",
+      "color": {
+        "a": 1,
+        "rgb": 16074040
+      }
+    },
+    {
+      "query": "path:\"100 现行有效法律\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 10543772
+      }
+    },
+    {
+      "query": "file:-总",
+      "color": {
+        "a": 1,
+        "rgb": 14863260
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0.1,
+  "nodeSizeMultiplier": 2.33626302083333,
+  "lineSizeMultiplier": 0.543004169993789,
+  "collapse-forces": false,
+  "centerStrength": 0.299153645833333,
+  "repelStrength": 20,
+  "linkStrength": 0.4798583984375,
+  "linkDistance": 500,
+  "scale": 0.029865257141127633,
+  "close": true
+}

@@ -1,0 +1,21 @@
+{
+  "accentColor": "#3e43c1",
+  "enabledCssSnippets": [
+    "06 table-style-default",
+    "09 index",
+    "05 list-style",
+    "06 table-style",
+    "07 container-width",
+    "01 workspace",
+    "03 table-style",
+    "04 workspace-gwy",
+    "MCL Gallery Cards",
+    "MCL Multi Column",
+    "MCL Wide Views"
+  ],
+  "textFontFamily": "",
+  "cssTheme": "Blue Topaz",
+  "theme": "obsidian",
+  "baseFontSize": 16,
+  "showRibbon": true
+}

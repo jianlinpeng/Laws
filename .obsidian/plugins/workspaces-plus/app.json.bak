@@ -1,0 +1,24 @@
+{
+  "promptDelete": true,
+  "attachmentFolderPath": "Attachment",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "000 Inbox",
+  "defaultViewMode": "preview",
+  "showInlineTitle": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "useTab": true,
+  "livePreview": true,
+  "tabSize": 4,
+  "trashOption": "local",
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "alwaysUpdateLinks": true,
+  "spellcheck": false,
+  "propertiesInDocument": "visible"
+}

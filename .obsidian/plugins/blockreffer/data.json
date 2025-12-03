@@ -1,0 +1,14 @@
+{
+  "format": "!{backlink}",
+  "keepText": false,
+  "parseLinks": true,
+  "selectedTextAsSearch": false,
+  "toSearch": {
+    "content": true,
+    "path": true,
+    "id": true
+  },
+  "searchLimit": 10,
+  "removeIdFromContent": true,
+  "fileName": "base"
+}

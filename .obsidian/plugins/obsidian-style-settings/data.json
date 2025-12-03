@@ -1,0 +1,23 @@
+{
+  "minimal-advanced@@cursor": "default",
+  "minimal-style@@sidebar-tabs-style": "sidebar-tabs-default",
+  "minimal-style@@ribbon-style": "ribbon-hidden",
+  "minimal-style@@row-lines": false,
+  "minimal-style@@tag-radius": "14px",
+  "minimal-style@@zoom-off": false,
+  "minimal-style@@table-numbers": false,
+  "minimal-style@@metadata-heading-off": false,
+  "minimal-style@@metadata-add-property-off": false,
+  "minimal-style@@metadata-icons-off": false,
+  "minimal-style@@metadata-dividers": false,
+  "minimal-style@@minimal-unstyled-tags": false,
+  "minimal-style@@tag-border-width": "1px",
+  "minimal-style@@window-title-off": false,
+  "minimal-advanced@@styled-scrollbars": false,
+  "minimal-style@@embed-strict": false,
+  "minimal-style@@embed-hide-title": false,
+  "minimal-style@@embed-underline": false,
+  "minimal-style@@image-blend-light": false,
+  "minimal-style@@h1-l": false,
+  "minimal-style@@vault-profile-display": "vault-profile-top"
+}

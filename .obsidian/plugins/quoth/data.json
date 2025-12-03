@@ -1,0 +1,21 @@
+{
+  "copySettings": {
+    "defaultShow": {
+      "title": false,
+      "author": false
+    },
+    "showMobileButton": false,
+    "defaultDisplay": "embedded"
+  },
+  "index": [
+    {
+      "sourceFile": "100 现行有效法律/30 民法商法/中华人民共和国公司法.md",
+      "subPath": "",
+      "ranges": [
+        "\"第一条\" to \"^t1\""
+      ],
+      "refFile": "000 Inbox/50 待解决/法条引用问题.md",
+      "refIdx": 0
+    }
+  ]
+}
